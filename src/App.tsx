@@ -1,21 +1,37 @@
 import React from 'react';
-import Header from './components/Header';
+import './App.css';
+import Navigation from './components/Navigation';
+import Home from './components/Home';
 import Benefits from './components/Benefits';
 import Services from './components/Services';
 import About from './components/About';
 import Testimonials from './components/Testimonials';
 import CTA from './components/CTA';
-import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Benefits />
-      <Services />
-      <About />
-      <Testimonials />
-      <CTA />
+      <Navigation />
+      <main>
+        <section id="inicio">
+          <Home />
+        </section>
+        <section id="vantagens">
+          <Benefits />
+        </section>
+        <section id="servicos">
+          <Services />
+        </section>
+        <section id="sobre">
+          <About />
+        </section>
+        <section id="depoimentos">
+          <Testimonials />
+        </section>
+        <section id="contato">
+          <CTA />
+        </section>
+      </main>
     </div>
   );
 }
