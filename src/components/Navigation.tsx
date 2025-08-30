@@ -16,7 +16,7 @@ const Navigation: React.FC = () => {
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
     if (element) {
-      const headerHeight = 80; // Altura do header fixo
+      const headerHeight = 65; // Altura do header fixo + margem extra
       const elementPosition = element.offsetTop - headerHeight;
       
       window.scrollTo({
@@ -30,12 +30,12 @@ const Navigation: React.FC = () => {
   useEffect(() => {
     const handleScroll = () => {
       const sections = menuItems.map(item => item.id);
-      const headerHeight = 80;
+      const headerHeight = 65;
       
       for (let i = sections.length - 1; i >= 0; i--) {
         const section = document.getElementById(sections[i]);
         if (section) {
-          const sectionTop = section.offsetTop - headerHeight - 100;
+          const sectionTop = section.offsetTop - headerHeight - 50;
           if (window.scrollY >= sectionTop) {
             setActiveSection(sections[i]);
             break;

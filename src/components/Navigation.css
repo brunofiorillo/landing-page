@@ -122,10 +122,6 @@
   }
 }
 
-/* Add padding to body to account for fixed navigation */
-body {
-  padding-top: 80px;
-}
 
 @media (max-width: 768px) {
   body {

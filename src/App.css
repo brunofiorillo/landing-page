@@ -15,6 +15,11 @@ body {
   min-height: 100vh;
 }
 
+/* Altura consistente para todas as seções */
+.App main section {
+  min-height: 100vh;
+}
+
 /* Estilos para scroll suave */
 html {
   scroll-behavior: smooth;
