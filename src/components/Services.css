@@ -44,19 +44,7 @@
   border-color: var(--primary-color);
 }
 
-.service-card:nth-child(2) {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
-}
 
-.service-card:nth-child(2) .service-title,
-.service-card:nth-child(2) .service-description {
-  color: white;
-}
-
-.service-card:nth-child(2) .service-feature {
-  color: #f0f0f0;
-}
 
 .service-number {
   width: 50px;
@@ -121,15 +109,7 @@
   transform: translateY(-2px);
 }
 
-.service-card:nth-child(2) .service-cta {
-  background: white;
-  color: #667eea;
-}
 
-.service-card:nth-child(2) .service-cta:hover {
-  background: #f8f9fa;
-  color: #5a67d8;
-}
 
 /* Tablet */
 @media (max-width: 1024px) {
