@@ -16,7 +16,7 @@ body {
 }
 
 /* Altura consistente para todas as seções */
-.App main section {
+.App main section:not(.header) {
   min-height: 100vh;
 }
 
