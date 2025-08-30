@@ -1,6 +1,6 @@
 .about {
   padding: 80px 0;
-  background: #f8f9fa;
+  background: var(--light-gray);
 }
 
 .container {
@@ -41,16 +41,16 @@
 }
 
 .professor-name {
-  font-size: 2rem;
+  font-size: var(--font-3xl);
   font-weight: 700;
-  color: #2c3e50;
+  color: var(--dark-gray);
   margin-bottom: 20px;
 }
 
 .professor-description {
-  font-size: 1.1rem;
+  font-size: var(--font-lg);
   line-height: 1.7;
-  color: #495057;
+  color: var(--gray);
   margin-bottom: 30px;
 }
 
@@ -84,24 +84,24 @@
 }
 
 .testimonial {
-  background: white;
+  background: var(--white);
   padding: 20px;
-  border-radius: 10px;
+  border-radius: var(--border-radius-lg);
   margin-bottom: 20px;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
-  border-left: 4px solid #667eea;
+  box-shadow: var(--shadow-md);
+  border-left: 4px solid var(--primary-color);
 }
 
 .testimonial-text {
   font-style: italic;
-  color: #495057;
+  color: var(--dark-gray);
   margin-bottom: 10px;
   line-height: 1.6;
 }
 
 .testimonial-author {
-  font-size: 0.9rem;
-  color: #6c757d;
+  font-size: var(--font-sm);
+  color: var(--gray);
   font-weight: 500;
 }
 
@@ -114,60 +114,157 @@
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
 }
 
-/* Responsividade */
+/* Tablet */
+@media (max-width: 1024px) {
+  .about-content {
+    gap: 40px;
+  }
+  
+  .about-photo {
+    width: 250px;
+    height: 250px;
+  }
+  
+  .professor-image {
+    width: 400px;
+    height: 400px;
+  }
+}
+
+/* Mobile */
 @media (max-width: 768px) {
   .about {
     padding: 60px 0;
   }
   
-  .about-title {
-    font-size: 2rem;
-    margin-bottom: 40px;
+  .container {
+    padding: 0 var(--spacing-md);
   }
   
   .about-content {
     grid-template-columns: 1fr;
-    gap: 40px;
     text-align: center;
+    gap: 30px;
+  }
+  
+  .about-image {
+    order: -1;
   }
   
   .about-photo {
-    width: 220px;
-    height: 220px;
+    width: 200px;
+    height: 200px;
+  }
+  
+  .professor-image {
+    width: 300px;
+    height: 300px;
+  }
+  
+  .about-title {
+    font-size: var(--font-3xl);
+    margin-bottom: 15px;
   }
   
   .professor-name {
-    font-size: 1.8rem;
+    font-size: var(--font-2xl);
+    margin-bottom: 15px;
   }
   
   .professor-description {
-    font-size: 1rem;
+    font-size: var(--font-base);
+    margin-bottom: 25px;
   }
   
   .credential-item {
     justify-content: center;
+    gap: 15px;
+  }
+  
+  .credential-text {
+    font-size: var(--font-sm);
+  }
+  
+  .testimonials-title {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  
+  .testimonial {
+    padding: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .testimonial-text {
+    font-size: var(--font-sm);
+    margin-bottom: 15px;
+  }
+  
+  .testimonial-author {
+    font-size: var(--font-xs);
   }
 }
 
+/* Small Mobile */
 @media (max-width: 480px) {
-  .about-title {
-    font-size: 1.8rem;
+  .about {
+    padding: 40px 0;
   }
   
   .container {
-    padding: 0 15px;
+    padding: 0 var(--spacing-sm);
+  }
+  
+  .about-content {
+    gap: 25px;
   }
   
   .about-photo {
-    width: 180px;
-    height: 180px;
+    width: 150px;
+    height: 150px;
+  }
+  
+  .professor-image {
+    width: 250px;
+    height: 250px;
+  }
+  
+  .about-title {
+    font-size: var(--font-2xl);
+    margin-bottom: 12px;
   }
   
   .professor-name {
-    font-size: 1.6rem;
+    font-size: var(--font-xl);
+    margin-bottom: 15px;
+  }
+  
+  .professor-description {
+    font-size: var(--font-sm);
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+  
+  .credential-item {
+    gap: 10px;
+  }
+  
+  .credential-text {
+    font-size: var(--font-xs);
   }
   
   .testimonial {
     padding: 15px;
+    margin-bottom: 12px;
+  }
+  
+  .testimonial-text {
+    font-size: var(--font-xs);
+    margin-bottom: 12px;
+    line-height: 1.5;
+  }
+  
+  .testimonial-author {
+    font-size: 11px;
   }
 }

@@ -1,5 +1,5 @@
 .header {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: var(--hero-gradient);
   color: white;
   padding: 80px 0;
   min-height: 100vh;
@@ -38,22 +38,22 @@
 }
 
 .cta-button {
-  background: #25D366;
+  background: var(--primary-color);
   color: white;
   border: none;
   padding: 18px 35px;
   font-size: 1.1rem;
   font-weight: 600;
-  border-radius: 50px;
+  border-radius: var(--border-radius-full);
   cursor: pointer;
-  transition: all 0.3s ease;
-  box-shadow: 0 4px 15px rgba(37, 211, 102, 0.3);
+  transition: all var(--transition-normal);
+  box-shadow: var(--shadow-lg);
 }
 
 .cta-button:hover {
-  background: #20b358;
+  background: var(--primary-dark);
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(37, 211, 102, 0.4);
+  box-shadow: var(--shadow-xl);
 }
 
 .hero-image {
@@ -69,49 +69,98 @@
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
 }
 
-/* Responsividade */
-@media (max-width: 768px) {
+/* Tablet */
+@media (max-width: 1024px) {
   .header {
     padding: 60px 0;
-    min-height: auto;
   }
   
   .hero-content {
     grid-template-columns: 1fr;
-    gap: 40px;
+    gap: 30px;
     text-align: center;
-  }
-  
-  .hero-title {
-    font-size: 2rem;
-  }
-  
-  .hero-subtitle {
-    font-size: 1.1rem;
   }
   
   .professor-photo {
     width: 250px;
     height: 250px;
-  }
-  
-  .cta-button {
-    padding: 16px 30px;
-    font-size: 1rem;
+    order: -1;
   }
 }
 
-@media (max-width: 480px) {
+/* Mobile */
+@media (max-width: 768px) {
+  .header {
+    padding: 40px 0;
+    min-height: auto;
+  }
+  
+  .container {
+    padding: 0 var(--spacing-md);
+  }
+  
+  .hero-content {
+    grid-template-columns: 1fr;
+    gap: 25px;
+    text-align: center;
+  }
+  
   .hero-title {
-    font-size: 1.8rem;
+    font-size: var(--font-3xl);
+    line-height: 1.2;
+    margin-bottom: 15px;
+  }
+  
+  .hero-subtitle {
+    font-size: var(--font-lg);
+    line-height: 1.5;
+    margin-bottom: 20px;
   }
   
   .professor-photo {
     width: 200px;
     height: 200px;
+    order: -1;
+    margin: 0 auto 20px;
+  }
+  
+  .cta-button {
+    padding: 12px 25px;
+    font-size: var(--font-base);
+    width: 100%;
+    max-width: 280px;
+    justify-content: center;
+  }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+  .header {
+    padding: 30px 0;
   }
   
   .container {
-    padding: 0 15px;
+    padding: 0 var(--spacing-sm);
+  }
+  
+  .hero-title {
+    font-size: var(--font-2xl);
+    margin-bottom: 10px;
+  }
+  
+  .hero-subtitle {
+    font-size: var(--font-base);
+    margin-bottom: 15px;
+  }
+  
+  .professor-photo {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .cta-button {
+    padding: 10px 20px;
+    font-size: var(--font-sm);
+    width: 100%;
   }
 }
