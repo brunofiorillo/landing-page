@@ -133,7 +133,7 @@
   }
   
   .testimonials-header {
-    margin-bottom: var(--spacing-2xl);
+    margin-bottom: 0px;
   }
   
   .section-title {
@@ -178,7 +178,7 @@
 /* Small Mobile */
 @media (max-width: 480px) {
   .testimonials {
-    padding: var(--spacing-2xl) 0;
+    padding: 0px;
   }
   
   .container {
