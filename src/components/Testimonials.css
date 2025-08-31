@@ -21,10 +21,11 @@
 .video-player {
   background: var(--white);
   border-radius: var(--border-radius-xl);
-  padding: var(--spacing-xl);
+  padding: calc(var(--spacing-xl) + 20px);
   box-shadow: var(--shadow-lg);
   width: 100%;
   max-width: 1200px;
+  margin: 0 var(--spacing-lg);
 }
 
 .video-container {
@@ -146,7 +147,8 @@
   }
   
   .video-player {
-    padding: var(--spacing-lg);
+    padding: calc(var(--spacing-lg) + 15px);
+    margin: 0 var(--spacing-md);
   }
   
   .main-video {
@@ -194,7 +196,8 @@
   }
   
   .video-player {
-    padding: var(--spacing-md);
+    padding: calc(var(--spacing-md) + 10px);
+    margin: 0 var(--spacing-sm);
   }
   
   .main-video {
