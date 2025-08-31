@@ -26,6 +26,15 @@ const Home: React.FC = () => {
               <span className="badge badge-experience">✨ 13+ Anos de Experiência</span>
               <span className="badge badge-location">📍 BH - Online & Presencial</span>
             </div>
+            <div className="hero-image-mobile">
+              <div className="image-container-mobile">
+                <img 
+                  src={professorImage} 
+                  alt="Professor Eduardo Borges - Aulas Particulares de Matemática em BH"
+                  className="professor-photo-mobile"
+                />
+              </div>
+            </div>
             <h1 className="hero-title">
               <span className="title-highlight">Aulas Particulares</span>
               <span className="title-subject">de Matemática</span>

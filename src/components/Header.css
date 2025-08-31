@@ -420,6 +420,8 @@
 
   .hero-features {
     justify-content: center;
+    display: flex;
+     flex-direction: column;
   }
 
   .professor-photo {
