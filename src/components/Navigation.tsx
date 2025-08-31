@@ -3,6 +3,7 @@ import './Navigation.css';
 
 const Navigation: React.FC = () => {
   const [activeSection, setActiveSection] = useState('inicio');
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const menuItems = [
     { id: 'inicio', label: 'Início' },
@@ -23,7 +24,15 @@ const Navigation: React.FC = () => {
         top: elementPosition,
         behavior: 'smooth'
       });
+      
+      // Fechar menu mobile após navegação
+      setIsMobileMenuOpen(false);
     }
+  };
+
+  const toggleMobileMenu = () => {
+    console.log('Toggle mobile menu clicked:', !isMobileMenuOpen);
+    setIsMobileMenuOpen(!isMobileMenuOpen);
   };
 
   // Detectar seção ativa baseada no scroll
@@ -55,7 +64,7 @@ const Navigation: React.FC = () => {
           <h2>Eduardo Borges</h2>
         </div>
         
-        <nav className="nav-menu">
+        <nav className={`nav-menu ${isMobileMenuOpen ? 'mobile-open' : ''}`}>
           <ul className="nav-list">
             {menuItems.map((item) => (
               <li key={item.id} className="nav-item">
@@ -72,7 +81,10 @@ const Navigation: React.FC = () => {
           </ul>
         </nav>
         
-        <div className="mobile-toggle">
+        <div 
+          className={`mobile-toggle ${isMobileMenuOpen ? 'active' : ''}`}
+          onClick={toggleMobileMenu}
+        >
           <span></span>
           <span></span>
           <span></span>

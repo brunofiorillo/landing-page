@@ -32,7 +32,6 @@ const Header: React.FC = () => {
               <span className="title-description">para Ensino Médio e Fundamental II</span>
             </h1>
             <p className="hero-subtitle">
-              <span className="subtitle-icon">🎯</span>
               Transforme suas dificuldades em matemática em conquistas! 
               Metodologia personalizada para resultados garantidos no colégio e ENEM.
             </p>
