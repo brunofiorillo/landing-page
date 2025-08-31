@@ -35,7 +35,7 @@ const CTA: React.FC = () => {
           </div>
           <button className="cta-button" onClick={handleWhatsAppClick}>
             📲 Clique aqui e fale comigo no WhatsApp agora mesmo
-          </button>
+          </button>©
         </div>
       </div>
     </section>
