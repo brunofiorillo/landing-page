@@ -144,7 +144,7 @@
 }
 
 .title-highlight {
-  background: linear-gradient(45deg, white, var(--primary-color));
+  background: linear-gradient(45deg, white, var(--primary-light));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;

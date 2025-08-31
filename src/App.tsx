@@ -8,6 +8,7 @@ import About from './components/About';
 import Testimonials from './components/Testimonials';
 import CTA from './components/CTA';
 import Footer from './components/Footer';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
         </section>
       </main>
       <Footer />
+      <ScrollToTop />
     </div>
   );
 }
