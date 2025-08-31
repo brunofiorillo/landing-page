@@ -132,22 +132,27 @@
   }
   
   .container {
-    padding: 0 var(--spacing-md);
+    padding: 0 var(--spacing-lg);
   }
   
   .services-title {
-    font-size: var(--font-3xl);
-    margin-bottom: 20px;
+    font-size: 2rem;
+    margin-bottom: 40px;
   }
   
   .services-grid {
     grid-template-columns: 1fr;
     gap: 25px;
+    max-width: 400px;
+    margin: 0 auto;
   }
   
   .service-card {
-    padding: 30px 20px;
+    padding: 35px 25px;
     min-height: auto;
+    margin: 0 auto;
+    max-width: 350px;
+    width: 100%;
   }
   
   .service-card:last-child {
@@ -185,20 +190,22 @@
   }
   
   .container {
-    padding: 0 var(--spacing-sm);
+    padding: 0 var(--spacing-md);
   }
   
   .services-title {
-    font-size: var(--font-2xl);
-    margin-bottom: 15px;
+    font-size: 1.8rem;
+    margin-bottom: 30px;
   }
   
   .services-grid {
     gap: 20px;
+    max-width: 320px;
   }
   
   .service-card {
-    padding: 25px 15px;
+    padding: 30px 20px;
+    max-width: 300px;
   }
   
   .service-number {
