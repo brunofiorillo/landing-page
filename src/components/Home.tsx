@@ -29,7 +29,7 @@ const Home: React.FC = () => {
             <h1 className="hero-title">
               <span className="title-highlight">Aulas Particulares</span>
               <span className="title-subject">de Matemática</span>
-              <span className="title-description">para Ensino Médio e Fundamental II - Online e Presencial (BH)”</span>
+              <span className="title-description">para Ensino Médio e Fundamental II - Online e Presencial (BH)</span>
             </h1>
             <p className="hero-subtitle">
               <span className="subtitle-icon">🎯</span>

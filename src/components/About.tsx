@@ -14,13 +14,12 @@ const About: React.FC = () => {
               alt="Professor Eduardo Borges - Especialista em Matemática"
               className="professor-image"
             />
-          </div>
-          <div className="about-text">
-            <h3 className="professor-name">Eduardo Borges</h3>
+            <div>
+                 <h3 className="professor-name">Eduardo Borges</h3>
             <p className="professor-description">
               Sou Eduardo Borges, professor de Matemática com mais de 13 anos de experiência em aulas particulares e preparação para o ENEM. Já ajudei centenas de alunos a superar dificuldades, recuperar notas e conquistar aprovações em Universidades Federais.
             </p>
-            <div className="credentials">
+                        <div className="credentials">
               <div className="credential-item">
                 <span className="credential-icon">🎓</span>
                 <span className="credential-text">Mais de 13 anos de experiência</span>
@@ -38,6 +37,11 @@ const About: React.FC = () => {
                 <span className="credential-text">Aulas em Belo Horizonte e Online</span>
               </div>
             </div>
+            </div>
+          </div>
+          <div className="about-text">
+         
+
             <div className="testimonials">
               <h4 className="testimonials-title">O que os pais dizem:</h4>
               <div className="testimonial">

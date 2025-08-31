@@ -14,6 +14,9 @@
 .cta-content {
   max-width: 700px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .cta-title {
@@ -84,23 +87,26 @@
   color: #f0f0f0;
   margin: 0;
   font-style: italic;
+  display: flex;
+  justify-content: center;
 }
 
 /* Animação de pulso para o botão */
 @keyframes pulse {
   0% {
-    box-shadow: 0 6px 20px rgba(37, 211, 102, 0.3);
+    box-shadow: 0 6px 20px rgba(30, 64, 175, 0.3);
   }
   50% {
-    box-shadow: 0 6px 20px rgba(37, 211, 102, 0.6);
+    box-shadow: 0 6px 20px rgba(30, 64, 175, 0.6);
   }
   100% {
-    box-shadow: 0 6px 20px rgba(37, 211, 102, 0.3);
+    box-shadow: 0 6px 20px rgba(30, 64, 175, 0.3);
   }
 }
 
 .cta-button {
   animation: pulse 2s infinite;
+  display: flex;
 }
 
 /* Tablet */
