@@ -7,7 +7,7 @@ const Footer: React.FC = () => {
       <div className="container">
         <div className="footer-content">
           <p className="footer-text">
-            Eduardo Borges © 2025 Todos os direitos reservados - CNPJ: 47.514.409/0001-90
+            Eduardo Borges © 2025 Todos os direitos reservados - CNPJ: 54.302.635/0001-72
           </p>
         </div>
       </div>

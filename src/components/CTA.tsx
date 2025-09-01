@@ -3,7 +3,7 @@ import './CTA.css';
 
 const CTA: React.FC = () => {
   const handleWhatsAppClick = () => {
-    const phoneNumber = '5531999999999'; // Substitua pelo número real
+    const phoneNumber = '5531998928229'; // Número atualizado
     const message = 'Olá! Gostaria de agendar uma aula particular de matemática para meu filho(a). Podemos conversar?';
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');

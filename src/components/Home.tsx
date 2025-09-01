@@ -4,7 +4,7 @@ import professorImage from '../images/eduardoBorges.png';
 
 const Home: React.FC = () => {
   const handleWhatsAppClick = () => {
-    const phoneNumber = '5531999999999'; // Substitua pelo número real
+    const phoneNumber = '5531998928229'; // Número atualizado
     const message = 'Olá! Gostaria de saber mais sobre as aulas particulares de matemática.';
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');

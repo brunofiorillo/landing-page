@@ -1,11 +1,11 @@
 :root {
   /* Cores principais */
-  --primary-color: #87CEEB; /* Azul bebê */
-  --primary-dark: #5F9EA0; /* Azul bebê mais escuro */
-  --primary-light: #B0E0E6; /* Azul bebê mais claro */
+  --primary-color: #1E3A8A; /* Azul escuro */
+  --primary-dark: #1E40AF; /* Azul escuro mais intenso */
+  --primary-light: #3B82F6; /* Azul escuro mais claro */
   
   /* Cores secundárias */
-  --secondary-color: #4A90E2;
+  --secondary-color: #1D4ED8;
   --accent-color: #FF6B6B;
   --success-color: #4CAF50;
   --warning-color: #FF9800;
