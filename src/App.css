@@ -17,7 +17,7 @@ body {
 
 /* Altura consistente para todas as seções */
 .App main section:not(.header) {
-  min-height: 100vh;
+  min-height: 30vh;
 }
 
 /* Estilos para scroll suave */
