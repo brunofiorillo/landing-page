@@ -24,14 +24,14 @@
   font-weight: 700;
   margin-bottom: 20px;
   line-height: 1.2;
-  color: var(--white);
+  color: var(--color-text);
 }
 
 .cta-subtitle {
   font-size: var(--font-xl);
   line-height: 1.6;
   margin-bottom: 20px;
-  color: var(--white);
+  color: var(--color-text);
   opacity: 0.9;
 }
 
@@ -39,7 +39,7 @@
   font-size: var(--font-lg);
   line-height: 1.6;
   margin-bottom: 40px;
-  color: var(--white);
+  color: var(--color-text);
   background: rgba(255, 255, 255, 0.1);
   padding: 15px 25px;
   border-radius: var(--border-radius-lg);
@@ -54,6 +54,7 @@
   gap: var(--spacing-lg);
   margin-bottom: 40px;
   flex-wrap: wrap;
+  color: var(--color-text);
 }
 
 .cta-benefit {
@@ -75,7 +76,7 @@
 
 .cta-button {
   background: var(--white);
-  color: var(--primary-color);
+  color: var(--color-text);
   border: none;
   padding: 20px 40px;
   font-size: var(--font-xl);
