@@ -4,7 +4,7 @@ import './Services.css';
 const Services: React.FC = () => {
   const services = [
     {
-      number: '1️⃣',
+      number: '1',
       title: 'Aulas Particulares de Matemática (Ensino Médio)',
       description: 'Acompanhamento escolar, recuperação de notas, reforço para ENEM.',
       features: [
@@ -15,7 +15,7 @@ const Services: React.FC = () => {
       ]
     },
     {
-      number: '2️⃣',
+      number: '2',
       title: 'Aulas de Matemática para Fundamental II',
       description: 'Foco em base sólida, prevenção de dificuldades futuras e acompanhamento contínuo.',
       features: [
@@ -26,7 +26,7 @@ const Services: React.FC = () => {
       ]
     },
     {
-      number: '3️⃣',
+      number: '3',
       title: 'Mentoria Matemática ENEM (Foco em 800+)',
       description: 'Para alunos que querem desempenho acima da média e aprovação em cursos concorridos.',
       features: [

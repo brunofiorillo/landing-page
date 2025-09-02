@@ -1,8 +1,8 @@
 :root {
   /* Cores principais */
-  --primary-color: #1E3A8A; /* Azul escuro */
-  --primary-dark: #1E40AF; /* Azul escuro mais intenso */
-  --primary-light: #3B82F6; /* Azul escuro mais claro */
+  --primary-color: #FFD700; /* Amarelo canarinho */
+  --primary-dark: #FFC107; /* Amarelo canarinho mais intenso */
+  --primary-light: #FFEB3B; /* Amarelo canarinho mais claro */
   
   /* Cores secundárias */
   --secondary-color: #1D4ED8;

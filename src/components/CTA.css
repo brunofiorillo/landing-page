@@ -30,9 +30,22 @@
 .cta-subtitle {
   font-size: var(--font-xl);
   line-height: 1.6;
-  margin-bottom: 40px;
-  color: #f0f0f0;
+  margin-bottom: 20px;
+  color: var(--white);
   opacity: 0.9;
+}
+
+.cta-contact {
+  font-size: var(--font-lg);
+  line-height: 1.6;
+  margin-bottom: 40px;
+  color: var(--white);
+  background: rgba(255, 255, 255, 0.1);
+  padding: 15px 25px;
+  border-radius: var(--border-radius-lg);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  max-width: 300px;;
 }
 
 .cta-benefits {
