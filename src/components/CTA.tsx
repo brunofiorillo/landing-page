@@ -19,6 +19,9 @@ const CTA: React.FC = () => {
           <p className="cta-subtitle">
             Não perca mais tempo! Entre em contato agora mesmo e vamos conversar sobre como posso ajudar seu filho a ter sucesso em Matemática.
           </p>
+          <p className="cta-contact">
+            📞 Entre em contato agora: <strong>(31) 99892-8229</strong>
+          </p>
           <div className="cta-benefits">
             <div className="cta-benefit">
               <span className="benefit-icon">⚡</span>
